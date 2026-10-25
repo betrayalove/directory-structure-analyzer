@@ -40,7 +40,7 @@
 - Подписывайте exe для распространения
 
 ## Лицензия
-MIT License. Для коммерческого использования требуется отдельное соглашение с автором. См. файл [LICENSE](LICENSE).
+MIT License. См. файл [LICENSE](LICENSE).
 
 ---
 GitHub: https://github.com/betrayalove/directory-structure-analyzer
@@ -90,7 +90,7 @@ GitHub: https://github.com/betrayalove/directory-structure-analyzer
 - Sign your EXE if possible (for distribution)
 
 ## License
-MIT License. For any commercial use, a separate agreement with the author is required. See [LICENSE](LICENSE).
+MIT License. See [LICENSE](LICENSE).
 
 ---
 GitHub: https://github.com/betrayalove/directory-structure-analyzer

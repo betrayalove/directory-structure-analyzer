@@ -1,53 +1,6 @@
-# Анализатор структуры директорий
-
-**Простой и удобный инструмент для визуализации и копирования структуры любой папки. Поддерживает русский и английский интерфейс. Разработан на PyQt5.**
-
----
-
-## Возможности
-- Визуальное дерево директорий с кликабельными файлами
-- Копирование содержимого файла в буфер обмена
-- Гибкая фильтрация (скрытые, системные, с точкой, со спецсимволами, по шаблонам)
-- Переключение языка (русский/английский)
-- Настраиваемая глубина и отступ
-- Не требует интернета, не создает скрытых процессов
-
-## Скриншот
-*(Добавьте сюда скриншот приложения)*
-
-## Установка
-1. Установите Python 3.8+
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Сборка EXE для Windows
-1. Установите PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
-2. Соберите exe с иконкой:
-   ```bash
-   python build.py
-   ```
-   Готовый exe будет в папке `dist/` с именем `Directory analyzer.exe`.
-
-## Как избежать ложных срабатываний антивирусов
-- Не используйте обфускацию, packers, автозапуск, скрытые процессы
-- Не добавляйте подозрительные импорты или сетевой код
-- Собирайте на чистой системе с официальным Python и PyInstaller
-- Подписывайте exe для распространения
-
-## Лицензия
-MIT License. См. файл [LICENSE](LICENSE).
-
----
-GitHub: https://github.com/betrayalove/directory-structure-analyzer
-
----
-
 # Directory Structure Analyzer
+
+[Русская версия](#русская-версия)
 
 **A simple and user-friendly tool for visualizing and copying the structure of any directory. Supports Russian and English interface. Built with PyQt5.**
 
@@ -60,9 +13,6 @@ GitHub: https://github.com/betrayalove/directory-structure-analyzer
 - Language toggle (Russian/English)
 - Customizable depth and indent
 - No network access, no hidden processes
-
-## Screenshot
-*(Add your screenshot here)*
 
 ## Installation
 1. Install Python 3.8+
@@ -91,6 +41,52 @@ GitHub: https://github.com/betrayalove/directory-structure-analyzer
 
 ## License
 MIT License. See [LICENSE](LICENSE).
+
+---
+GitHub: https://github.com/betrayalove/directory-structure-analyzer
+
+---
+
+# Русская версия
+
+**Анализатор структуры директорий** — простой и удобный инструмент для визуализации и копирования структуры любой папки. Поддерживает русский и английский интерфейс. Разработан на PyQt5.
+
+---
+
+## Возможности
+- Визуальное дерево директорий с кликабельными файлами
+- Копирование содержимого файла в буфер обмена
+- Гибкая фильтрация (скрытые, системные, с точкой, со спецсимволами, по шаблонам)
+- Переключение языка (русский/английский)
+- Настраиваемая глубина и отступ
+- Не требует интернета, не создает скрытых процессов
+
+## Установка
+1. Установите Python 3.8+
+2. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Сборка EXE для Windows
+1. Установите PyInstaller:
+   ```bash
+   pip install pyinstaller
+   ```
+2. Соберите exe с иконкой:
+   ```bash
+   python build.py
+   ```
+   Готовый exe будет в папке `dist/` с именем `Directory analyzer.exe`.
+
+## Как избежать ложных срабатываний антивирусов
+- Не используйте обфускацию, packers, автозапуск, скрытые процессы
+- Не добавляйте подозрительные импорты или сетевой код
+- Собирайте на чистой системе с официальным Python и PyInstaller
+- Подписывайте exe для распространения
+
+## Лицензия
+MIT License. См. файл [LICENSE](LICENSE).
 
 ---
 GitHub: https://github.com/betrayalove/directory-structure-analyzer
